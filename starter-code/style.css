@@ -18,6 +18,11 @@ header {
   align-items: center;
 }
 
+footer {
+  text-align: center;
+  padding: 3em 0 4em 0;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -127,4 +132,12 @@ header {
 .testimonial__text {
   line-height: 1.875em;
   margin-bottom: 2em;
+}
+
+.footer__logo {
+  margin-bottom: 3em;
+}
+
+.footer__socials img {
+  margin: 0 0.875em;
 }
