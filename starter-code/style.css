@@ -9,6 +9,49 @@ body {
   font-family: "Manrope", sans-serif;
 }
 
+header {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.btn--primary {
+  background-color: #44ffa1;
+  text-decoration: none;
+  padding: 1em;
+  color: #24053e;
+  font-weight: bold;
+}
+
+.btn--primary:hover {
+  background-color: transparent;
+  color: #44ffa1;
+  font-weight: 400;
+  border: 2px solid #44ffa1;
+}
+
+.header__button {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 0.1325rem;
+  margin-left: auto;
+}
+
+.intro {
+  background-color: #24053e;
+  color: white;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.border--bottom--green {
+  border-bottom: 2px solid #44ffa1;
+}
+
 .intro__title {
   font-size: 3.125rem;
   font-weight: 600;
