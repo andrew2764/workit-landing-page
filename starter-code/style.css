@@ -76,11 +76,32 @@ footer {
   text-decoration: none;
 }
 
+.intro--curved-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.intro--curved-background svg {
+  position: relative;
+  display: block;
+  width: calc(281% + 1.3px);
+  height: 80px;
+}
+
+.intro--curved-background .shape-fill {
+  fill: #24053e;
+}
+
 .content {
   background-color: #fcf8ff;
   text-align: center;
   padding: 2em 0;
   color: #24053e;
+  position: relative;
 }
 
 .content--container {
@@ -113,8 +134,29 @@ footer {
   line-height: 1.75em;
 }
 
+.content--curved-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.content--curved-background svg {
+  position: relative;
+  display: block;
+  width: calc(281% + 1.3px);
+  height: 80px;
+}
+
+.content--curved-background .shape-fill {
+  fill: #fcf8ff;
+}
+
 .testimonial {
   padding: 2em 0;
+  position: relative;
 }
 
 .testimonial__image {
