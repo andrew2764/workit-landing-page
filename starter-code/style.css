@@ -58,16 +58,41 @@ header {
   font-family: "Fraunces", serif;
 }
 
+.content {
+  background-color: #fcf8ff;
+  text-align: center;
+  padding: 2em 0;
+  color: #24053e;
+}
+
+.content--container {
+  margin-top: 2em;
+}
+
 .content__header {
   font-size: 1.25rem;
   font-family: "Fraunces", serif;
   font-weight: 600;
+  border: 1px solid #24053e;
+  height: 46px;
+  width: 48px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
 }
 
 .content__title {
   font-size: 1.75rem;
   font-family: "Fraunces", serif;
   font-weight: 600;
+  margin-bottom: 0.75em;
+}
+
+.content__text {
+  color: #584d62;
+  line-height: 1.75em;
 }
 
 .testimonial__title {
