@@ -36,6 +36,14 @@ footer {
   font-weight: bold;
 }
 
+.btn--secondary {
+  border-bottom: 2px solid #44ffa1;
+}
+
+.btn--secondary:hover {
+  color: #44ffa1;
+}
+
 .btn--primary:hover {
   background-color: transparent;
   color: #44ffa1;
@@ -57,14 +65,15 @@ footer {
   padding: 2em 0;
 }
 
-.border--bottom--green {
-  border-bottom: 2px solid #44ffa1;
-}
-
 .intro__title {
   font-size: 3.125rem;
   font-weight: 600;
   font-family: "Fraunces", serif;
+}
+
+.intro__title a {
+  color: white;
+  text-decoration: none;
 }
 
 .content {
