@@ -65,6 +65,12 @@ footer {
   padding-top: 2em;
 }
 
+.intro__pattern--left,
+.intro__pattern--right,
+.testimonial__pattern {
+  display: none;
+}
+
 .intro__title {
   font-size: 3.125rem;
   font-weight: 600;
@@ -206,6 +212,27 @@ footer {
 }
 
 @media (min-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .intro__pattern--left,
+  .intro__pattern--right,
+  .testimonial__pattern {
+    display: inline;
+    position: absolute;
+  }
+
+  .intro__pattern--left {
+    top: 50px;
+    left: -225px;
+  }
+
+  .intro__pattern--right {
+    top: 300px;
+    right: -90px;
+  }
+
   .intro__title {
     font-size: 3.75rem;
     width: 70%;
@@ -254,5 +281,9 @@ footer {
 
   .testimonial__title {
     font-size: 3rem;
+  }
+
+  .testimonial__pattern {
+    right: 10%;
   }
 }
