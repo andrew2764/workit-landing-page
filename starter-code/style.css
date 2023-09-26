@@ -83,6 +83,7 @@ footer {
   width: 85%;
   margin: 0 auto;
   margin-bottom: -4em;
+  max-width: 515px;
 }
 
 .intro--curved-background {
@@ -118,7 +119,7 @@ footer {
   margin-top: 2em;
 }
 
-.content__header {
+.content__header p {
   font-size: 1.25rem;
   font-family: "Fraunces", serif;
   font-weight: 600;
@@ -132,14 +133,14 @@ footer {
   border-radius: 100%;
 }
 
-.content__title {
+.content__text--title {
   font-size: 1.75rem;
   font-family: "Fraunces", serif;
   font-weight: 600;
   margin-bottom: 0.75em;
 }
 
-.content__text {
+.content__text--description {
   color: #584d62;
   line-height: 1.75em;
 }
@@ -202,4 +203,56 @@ footer {
 
 .footer__socials img {
   margin: 0 0.875em;
+}
+
+@media (min-width: 600px) {
+  .intro__title {
+    font-size: 3.75rem;
+    width: 70%;
+    margin: 0.875em auto;
+  }
+
+  .intro__image {
+    margin-bottom: -6em;
+    top: 100px;
+  }
+
+  .content {
+    text-align: left;
+    padding: 12em 3em 4em 3em;
+  }
+
+  .content .container {
+    max-width: 575px;
+  }
+
+  .content--container {
+    display: flex;
+    align-items: center;
+  }
+
+  .content__header {
+    margin-right: 2.25em;
+  }
+
+  .testimonial {
+    padding-top: 1em;
+  }
+
+  .testimonial--content {
+    text-align: left;
+    width: 80%;
+    margin-left: auto;
+    padding: 1.25em 3em 4.5em 4em;
+  }
+
+  .testimonial__image {
+    max-width: 281px;
+    margin: 0;
+    top: 125px;
+  }
+
+  .testimonial__title {
+    font-size: 3rem;
+  }
 }
