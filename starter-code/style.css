@@ -212,7 +212,7 @@ footer {
   margin: 0 0.875em;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 675px) {
   body {
     overflow-x: hidden;
   }
